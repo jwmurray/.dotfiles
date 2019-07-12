@@ -1,5 +1,7 @@
 #!/usr/bin/env fish
 
+## git
+alias gadd="git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
 ## ls commands
 alias ll='ls -la'
 alias lr='ls -lart'

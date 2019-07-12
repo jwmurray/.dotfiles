@@ -12,6 +12,7 @@ SETUVAR _fish_abbr_cdcfg:cd\x20\x7e/\x2econfig
 SETUVAR _fish_abbr_cdd:cd\x20\x7e/\x2edotfiles
 SETUVAR _fish_abbr_cdf:cd\x20\x7e/\x2econfig/fish
 SETUVAR _fish_abbr_fishrel:source\x20\x7e/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_gadduntracked:\x21git\x20status\x20\x2d\x2dporcelain\x20\x7c\x20awk\x20\x27/\x5c\x3f\x5c\x3f/\x7b\x20print\x20\x20\x7d\x27\x20\x7c\x20xargs\x20git\x20add
 SETUVAR _fish_abbr_gc:git\x20checkout
 SETUVAR _fish_abbr_gcam:git\x20commit\x20\x2dam\x20\x27
 SETUVAR _fish_abbr_gf:git\x20fetch
