@@ -142,8 +142,12 @@ print_success() {
 #
 
 
+# finds all *.symlink directories in this folder
+declare -a DIRS_TO_SYMLINK=$(find . -type d -maxdepth 1 -name "*.symlink" )
+Dirs_TO_SYMLINK="$DIRS_TO_SYMLINK"
+
 # finds all *.symlink files in this folder
-declare -a FILES_TO_SYMLINK=$(find .  -maxdepth 1 -name "*.symlink" )
+declare -a FILES_TO_SYMLINK=$(find . -type f -maxdepth 1 -name "*.symlink" )
 Files_TO_SYMLINK="$FILES_TO_SYMLINK"
 
 
@@ -154,11 +158,42 @@ main() {
     local i=""
     local sourceFile=""
     local targetFile=""
+    local sourceDir=""
+    local targetDir=""
+
+    for i in ${Dirs_TO_SYMLINK[@]}; do
+
+        sourceDir="$(pwd)/$i"
+        targetDir="$HOME/.config/`basename \"${i%.*}\"`"
+
+	echo "source: $sourceDir"
+	echo "target: $targetDir"
+
+        if [ -e "$targetDir" ]; then
+            if [ "$(readlink "$targetDir")" != "$sourceDir" ]; then
+
+                ask_for_confirmation "'$targetDir' already exists, do you want to overwrite it?"
+                if answer_is_yes; then
+                    rm -rf "$targetDir"
+                    execute "ln -fs $sourceDir $targetDir" "$targetDir → $sourceDir"
+                else
+                    print_error "$targetDir → $sourceDir"
+                fi
+
+            else
+                print_success "$targetDir → $sourceDir"
+            fi
+        else
+            execute "ln -fs $sourceDir $targetDir" "$targetDir → $sourceDir"
+        fi
+
+    done
+
 
     for i in ${FILES_TO_SYMLINK[@]}; do
 
         sourceFile="$(pwd)/$i"
-        targetFile="$HOME/.config/`basename \"${i%.*}\"`"
+        targetFile="$HOME/`basename \"${i%.*}\"`"
 
 	echo "source: $sourceFile"
 	echo "target: $targetFile"

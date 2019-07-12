@@ -1,6 +1,16 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_init_2_3_0:\x1d
+SETUVAR _fish_abbr__2E_:cd\x20\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_:cd\x20\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_2E_:cd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_2E_2E_2E_:cd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_2E_2E_2E_2E_:cd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_2E_2E_2E_2E_2E_2E_:cd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr__2E_2E_2E_2E_2E_2E_2E_2E_2E_:cd\x20\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e/\x2e\x2e
+SETUVAR _fish_abbr_cdcfg:cd\x20\x7e/\x2econfig
+SETUVAR _fish_abbr_cdd:cd\x20\x7e/\x2edotfiles
+SETUVAR _fish_abbr_cdf:cd\x20\x7e/\x2econfig/fish
 SETUVAR _fish_abbr_fishrel:source\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_gc:git\x20checkout
 SETUVAR _fish_abbr_gcam:git\x20commit\x20\x2dam\x20\x27
