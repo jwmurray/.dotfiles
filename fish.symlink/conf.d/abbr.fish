@@ -1,6 +1,8 @@
 ### fish
 
 abbr -aU -- fishrel 'source ~/.config/fish/config.fish'
+abbr -aU -- orel 'omf reload'
+
 
 ### git
 
@@ -36,3 +38,7 @@ abbr -aU -- cdf 'cd ~/.config/fish'
 abbr -aU -- salias 'omf reload'
 abbr -aU -- valias 'vi ~/.config/fish/conf.d/aliases.fish'
 abbr -aU -- vabbr 'vi ~/.config/fish/conf.d/abbr.fish'
+
+
+####  terminals ####
+abbr -aU -- al '/usr/local/bin/alacritty'
