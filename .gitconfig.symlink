@@ -3,3 +3,5 @@
 	name = jmurray
 
 [alias]
+[core]
+	editor = vim

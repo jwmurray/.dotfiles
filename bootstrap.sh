@@ -172,9 +172,6 @@ main() {
 	
 
 	if [ "$base" ==  "User" ]; then
-	    echo "We are here"
-#	    execute "mkdir -p ${HOME}/.config/Code"
-	    
 	    targetDir="${HOME}/.config/Code/${base}"
 	else
             targetDir="$HOME/.config/`basename \"${i%.*}\"`"	    
