@@ -9,6 +9,7 @@ abbr -a -U -- gs 'git status'
 abbr -a -U -- gg "git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 abbr -aU gg2 "git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 abbr -aU -- gf "git fetch"
+abbr -aU -- gclone "git clone git@github.com:"
 abbr -aU -- gcam "git commit -am '"
 abbr -aU -- gcat "cat .git/config"
 abbr -aU -- grb "git rebase"
