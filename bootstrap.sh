@@ -143,11 +143,11 @@ print_success() {
 
 
 # finds all *.symlink directories in this folder
-declare -a DIRS_TO_SYMLINK=$(find . -type d -maxdepth 1 -name "*.symlink" )
+declare -a DIRS_TO_SYMLINK=$(find . -maxdepth 2 -type d -name "*.symlink" )
 Dirs_TO_SYMLINK="$DIRS_TO_SYMLINK"
 
 # finds all *.symlink files in this folder
-declare -a FILES_TO_SYMLINK=$(find . -type f -maxdepth 1 -name "*.symlink" )
+declare -a FILES_TO_SYMLINK=$(find . -maxdepth 1 -type f -name "*.symlink" )
 Files_TO_SYMLINK="$FILES_TO_SYMLINK"
 
 
@@ -163,12 +163,28 @@ main() {
 
     for i in ${Dirs_TO_SYMLINK[@]}; do
 
+
+	base=`basename \"${i%.*}`
+	echo "base:  ${base}"
+		
         sourceDir="$(pwd)/$i"
-        targetDir="$HOME/.config/`basename \"${i%.*}\"`"
+
+	
+
+	if [ "$base" ==  "User" ]; then
+	    echo "We are here"
+#	    execute "mkdir -p ${HOME}/.config/Code"
+	    
+	    targetDir="${HOME}/.config/Code/${base}"
+	else
+            targetDir="$HOME/.config/`basename \"${i%.*}\"`"	    
+	fi
+
 
 	echo "source: $sourceDir"
 	echo "target: $targetDir"
 
+	
         if [ -e "$targetDir" ]; then
             if [ "$(readlink "$targetDir")" != "$sourceDir" ]; then
 
