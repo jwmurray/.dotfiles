@@ -11,6 +11,7 @@ abbr -aU gg2 "git log --graph --abbrev-commit --decorate --format=format:'%C(bol
 abbr -aU -- gf "git fetch"
 abbr -aU -- gcam "git commit -am '"
 abbr -aU -- grb "git rebase -i"
+abbr -aU -- gcat "cat .git/config"
 
 ## changing directories
 
