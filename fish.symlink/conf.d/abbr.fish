@@ -10,8 +10,9 @@ abbr -a -U -- gg "git log --graph --abbrev-commit --decorate --format=format:'%C
 abbr -aU gg2 "git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
 abbr -aU -- gf "git fetch"
 abbr -aU -- gcam "git commit -am '"
-abbr -aU -- grb "git rebase -i"
 abbr -aU -- gcat "cat .git/config"
+abbr -aU -- grb "git rebase"
+abbr -aU -- grbi "git rebase -i"
 
 ## changing directories
 
@@ -29,3 +30,8 @@ abbr -aU -- cdf 'cd ~/.config/fish'
 
 
 
+
+#### editing aliases and abbrs
+abbr -aU -- salias 'omf reload'
+abbr -aU -- valias 'vi ~/.config/fish/conf.d/aliases.fish'
+abbr -aU -- vabbr 'vi ~/.config/fish/conf.d/abbr.fish'

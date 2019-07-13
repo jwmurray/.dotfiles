@@ -12,9 +12,6 @@ alias du='du -hs'
 alias sbash='source  ~/.bashrc'
 alias h=history
 alias rmf='rm -rf'
-alias salias='omf reload'
-alias valias='vi ~/.dotfiles/fish/aliases.fish'
-alias vabbr='vi ~/.dotfiles/fish/abbr.fish'
 
 ## Rust
 alias cb='cargo build'
