@@ -4,5 +4,8 @@
     },
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.rendererType": "dom",
-    "lldb.adapterType": "bundled"
+    "lldb.adapterType": "bundled",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rust-lang.rust"
 }
