@@ -1,0 +1,203 @@
+{
+    "files.associations": {
+        "*.mak": "makefile",
+        "*.pro": "makefile",
+        "*.pri": "makefile",
+        "*.qrc": "xml",
+        "*.xsd": "xml",
+        "*.qss": "sass",
+        "*h*h*h*h*h*hexception": "cpp",
+        "typeinfo": "cpp",
+        "type_traits": "cpp",
+        "*hcstdint": "cpp",
+        "*hnew": "cpp",
+        "*h*h*hcwchar": "cpp",
+        "cwchar": "cpp",
+        "initializer_list": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cwctype": "cpp",
+        "cstdarg": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstddef": "cpp",
+        "ctime": "cpp",
+        "QTimer": "cpp",
+        "*harray": "cpp",
+        "system_error": "cpp",
+        "QNetworkReply": "cpp",
+        "istream": "cpp",
+        "functional": "cpp",
+        "*h*h*htuple": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "array": "cpp",
+        "QString": "cpp",
+        "*.tcc": "cpp",
+        "cstdint": "cpp",
+        "exception": "cpp",
+        "new": "cpp",
+        "limits": "cpp",
+        "*.i": "cpp",
+        "vector": "cpp",
+        "bitset": "cpp",
+        "qdomdocument": "cpp",
+        "cmath": "cpp",
+        "cstring": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "qdebug": "cpp",
+        "algorithm": "cpp",
+        "qframe": "cpp",
+        "qdatetime": "cpp",
+        "complex": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "quuid": "cpp",
+        "numeric": "cpp",
+        "cinttypes": "cpp",
+        "qlist": "cpp",
+        "qdomelement": "cpp",
+        "qtextstream": "cpp",
+        "qtemporaryfile": "cpp",
+        "qvariantmap": "cpp",
+        "qobject": "cpp",
+        "qfileinfo": "cpp",
+        "qstringlist": "cpp",
+        "map": "cpp",
+        "qpointer": "cpp",
+        "qtime": "cpp"
+    },
+    //"cpplint.filters": [
+    //  "-build/header_guard",
+    //  "-build/include",
+    //  "-build/include_order",
+    //  "-whitespace",
+    //  "-readability/braces",
+    //  "-legal",
+    //  "-runtime/references",
+    //  "-readability/check"
+    //],
+    //"cpplint.lineLength": 160,
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "text.html.markdown.journal.task.open.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.marker",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.text",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.marker",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.text",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.scope",
+                "settings": {
+                    "foreground": "#FFFF00",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            }
+        ]
+    },
+    "todo-tree.expanded": true,
+    "workbench.colorCustomizations": {
+        "editor.rangeHighlightBackground": "#660000",
+        "editor.lineHighlightBorder": "#222222",
+        "editor.lineHighlightBackground": "#222222",
+        "editorWarning.foreground": "#ffff00",
+        "editorError.foreground": "#ff0000",
+        "editorWhitespace.foreground": "#444",
+        "activityBar.background": "#032F52",
+        "titleBar.activeBackground": "#044273",
+        "titleBar.activeForeground": "#F5FAFF"
+    },
+    "cSpell.words": [
+        "emcscmslib",
+        "guijcop",
+        "h",
+        "idatabase",
+        "kpis",
+        "writer"
+    ],
+    "cSpell.ignoreWords": [
+        "igui",
+        "ikpi"
+    ]
+}

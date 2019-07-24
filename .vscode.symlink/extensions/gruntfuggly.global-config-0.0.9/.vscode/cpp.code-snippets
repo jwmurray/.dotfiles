@@ -1,0 +1,39 @@
+{
+    "header-template": {
+        "prefix": "ht",
+        "body": [
+            "/*! \\file   ${TM_FILENAME}",
+            "**  \\author nscott",
+            "**  \\date   ${CURRENT_DATE} ${CURRENT_MONTH_NAME_SHORT} ${CURRENT_YEAR}",
+            "**  \\brief",
+            "*/",
+            "/*****************************************************************************",
+            "**                                                                          **",
+            "** This program is the confidential and proprietary product of Application  **",
+            "** Solutions (Safety and Security) Limited. Any unauthorised use,           **",
+            "** reproduction or transfer of this program is strictly prohibited.         **",
+            "** Copyright ${CURRENT_YEAR} Application Solutions (Safety and Security) Limited.      **",
+            "** (Subject to limited distribution and restricted disclosure only.) All    **",
+            "** rights reserved.                                                         **",
+            "**                                                                          **",
+            "*****************************************************************************/",
+            "",
+            "#ifndef ${1}${TM_FILENAME_BASE/\\-/_/g}_h",
+            "#define ${1}${TM_FILENAME_BASE/\\-/_/g}_h",
+            "",
+            "class ${TM_FILENAME_BASE}",
+            "{",
+            "public:",
+            "    ${TM_FILENAME_BASE}($0);",
+            "    ~${TM_FILENAME_BASE}();",
+            "};",
+            "",
+            "#endif /* ${1}${TM_FILENAME_BASE/\\-/_/g}_h */",
+            "",
+            "/*---------------------------------------------------------------------------",
+            "** End of File",
+            "*/"
+        ],
+        "description": "header file template"
+    }
+}
