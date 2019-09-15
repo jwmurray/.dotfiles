@@ -43,6 +43,13 @@ abbr -aU -- vabbr 'vi ~/.config/fish/conf.d/abbr.fish'
 ####  terminals ####
 abbr -aU -- al '/usr/local/bin/alacritty'
 
+### cargo/rust builds ###
 abbr -aU -- cb 'clear;cargo build'
 abbr -aU -- cr 'clear;cargo run'
 abbr -aU -- ct 'clear;cargo test'
+
+####  vi/vim/neovim ####
+#
+abbr -aU -- vi 'nvim'
+abbr -aU -- vim 'nvim'
+
