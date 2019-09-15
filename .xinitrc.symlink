@@ -1,0 +1,4 @@
+# make Caps Lock key a Control key
+$ setxkbmap -option ctrl:nocaps
+# disable left Control key
+$ xmodmap -e "keycode 37="

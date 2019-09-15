@@ -5,7 +5,15 @@
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.rendererType": "dom",
     "lldb.adapterType": "bundled",
-    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "rust-lang.rust"
+    "editor.defaultFormatter": "rust-lang.rust",
+    "window.zoomLevel": 1,
+    "rust.all_features": true,
+    "rust.jobs": 20,
+    "platformio-ide.activateOnlyOnPlatformIOProject": true,
+    "platformio-ide.disablePIOHomeStartup": true,
+    "rust-client.updateOnStartup": true,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.scrollback": 100000
 }

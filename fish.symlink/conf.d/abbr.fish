@@ -43,6 +43,6 @@ abbr -aU -- vabbr 'vi ~/.config/fish/conf.d/abbr.fish'
 ####  terminals ####
 abbr -aU -- al '/usr/local/bin/alacritty'
 
-abbr -aU -- cb 'clear; cargo build'
-abbr -aU -- cr 'clear; cargo run'
-abbr -aU -- ct 'clear; cargo test'
+abbr -aU -- cb 'clear;cargo build'
+abbr -aU -- cr 'clear;cargo run'
+abbr -aU -- ct 'clear;cargo test'
