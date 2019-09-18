@@ -93,6 +93,13 @@
         "command": "-editor.action.selectAll",
         "when": "textInputFocus"
     },
- 
+    {
+        "key": "capslock ctrl+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
 
 ]

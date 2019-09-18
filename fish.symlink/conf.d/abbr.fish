@@ -53,3 +53,4 @@ abbr -aU -- ct 'clear;cargo test'
 abbr -aU -- vi 'nvim'
 abbr -aU -- vim 'nvim'
 
+abbr -aU -- vi3 'vi ~/.config/i3/config'

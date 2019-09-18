@@ -5,8 +5,8 @@ set -gx PATH /usr/local/pycharm/bin $PATH
 set -gx PATH /usr/local/clion/bin $PATH
 set -gx PATH /usr/local/node/bin $PATH
 
-setxkbmap -option ctrl:nocaps
+#setxkbmap -option ctrl:nocaps
 
-xmodmap -e "keycode 37="
+#xmodmap -e "keycode 37="
 
 
