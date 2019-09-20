@@ -36,8 +36,6 @@ abbr -aU -- cdf 'cd ~/.config/fish'
 
 #### editing aliases and abbrs
 abbr -aU -- salias 'omf reload'
-abbr -aU -- valias 'vi ~/.config/fish/conf.d/aliases.fish'
-abbr -aU -- vabbr 'vi ~/.config/fish/conf.d/abbr.fish'
 
 
 ####  terminals ####
@@ -49,8 +47,3 @@ abbr -aU -- cr 'clear;cargo run'
 abbr -aU -- ct 'clear;cargo test'
 
 ####  vi/vim/neovim ####
-#
-abbr -aU -- vi 'nvim'
-abbr -aU -- vim 'nvim'
-
-abbr -aU -- vi3 'vi ~/.config/i3/config'

@@ -22,3 +22,10 @@ alias ff='find . -type f -name  '
 ## cats
 alias gcat='cat .git/config'
 
+
+## nvim
+alias vi nvim
+alias vim nvim
+alias vi3 'nvim ~/.config/i3/config'
+alias valias 'nvim ~/.config/fish/conf.d/aliases.fish'
+alias vabbr 'nvim ~/.config/fish/conf.d/abbr.fish'
