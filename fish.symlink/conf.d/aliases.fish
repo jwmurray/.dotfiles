@@ -2,10 +2,10 @@
 
 ## git
 alias gadd="git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
-## ls commands
-alias ll='ls -la'
-alias lr='ls -lart'
-alias d='ls -la'
+## exa commands
+alias ll='exa -la'
+alias lr='exa -lart'
+alias d='exa -la'
 
 alias p=pwd
 alias du='du -hs'

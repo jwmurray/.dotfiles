@@ -1,6 +1,11 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
+        "key": "pagedown",
+        "command": "workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus"
+    },
+    {
         "key": "ctrl+pagedown",
         "command": "workbench.action.terminal.scrollDownPage",
         "when": "terminalFocus"
@@ -8,6 +13,11 @@
     {
         "key": "shift+pagedown",
         "command": "-workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "pageup",
+        "command": "workbench.action.terminal.scrollUpPage",
         "when": "terminalFocus"
     },
     {
