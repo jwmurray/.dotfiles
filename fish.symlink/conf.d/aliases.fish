@@ -12,6 +12,8 @@ alias du='du -hs'
 alias sbash='source  ~/.bashrc'
 alias h=history
 alias rmf='rm -rf'
+alias gd='git diff'
+
 
 ## Rust
 alias cb='cargo build'
