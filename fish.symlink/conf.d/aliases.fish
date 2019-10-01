@@ -4,7 +4,7 @@
 alias gadd="git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
 ## exa commands
 alias ll='exa -la'
-alias lr='exa -lart'
+alias lr='exa -la --sort oldest'
 alias d='exa -la'
 
 alias p=pwd
