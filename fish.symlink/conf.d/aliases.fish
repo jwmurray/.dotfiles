@@ -3,6 +3,7 @@
 ## git
 alias gadd="git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
 ## exa commands
+alias exa=ls
 alias ll='exa -la'
 alias lr='exa -la --sort oldest'
 alias d='exa -la'
@@ -26,8 +27,7 @@ alias gcat='cat .git/config'
 
 
 ## nvim
-alias vi nvim
-alias vim nvim
-alias vi3 'nvim ~/.config/i3/config'
-alias valias 'nvim ~/.config/fish/conf.d/aliases.fish'
-alias vabbr 'nvim ~/.config/fish/conf.d/abbr.fish'
+alias vi vim
+alias vi3 'vim ~/.config/i3/config'
+alias valias 'vim ~/.config/fish/conf.d/aliases.fish'
+alias vabbr 'vim ~/.config/fish/conf.d/abbr.fish'
