@@ -15,6 +15,7 @@ alias h=history
 alias rmf='rm -rf'
 alias gd='git diff'
 
+alias gcam='git commit -am "'
 
 ## Rust
 alias cb='cargo build'
