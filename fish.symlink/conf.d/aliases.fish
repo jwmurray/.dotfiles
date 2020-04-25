@@ -18,6 +18,7 @@ alias gd='git diff'
 
 ## Rust
 alias cb='cargo build'
+alias snap='cd ~/snap/exercism/2/exercism/rust/atbash-cipher/'
 
 ## find aliases
 alias ff='find . -type f -name  '
