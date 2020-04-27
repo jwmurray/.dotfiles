@@ -15,5 +15,6 @@
     "rust-client.updateOnStartup": true,
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "terminal.integrated.scrollback": 100000
+    "terminal.integrated.scrollback": 100000,
+    "explorer.confirmDelete": false
 }

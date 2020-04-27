@@ -1,27 +1,11 @@
-// Place your key bindings in this file to override the defaultsauto[]
+// Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "pagedown",
-        "command": "workbench.action.terminal.scrollDownPage",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+pagedown",
-        "command": "workbench.action.terminal.scrollDownPage",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "shift+pagedown",
-        "command": "-workbench.action.terminal.scrollDownPage",
-        "when": "terminalFocus"
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.runTask"
     },
     {
         "key": "pageup",
-        "command": "workbench.action.terminal.scrollUpPage",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+pageup",
         "command": "workbench.action.terminal.scrollUpPage",
         "when": "terminalFocus"
     },
@@ -31,47 +15,30 @@
         "when": "terminalFocus"
     },
     {
+        "key": "pagedown",
+        "command": "workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+pagedown",
+        "command": "-workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
         "key": "ctrl+s",
         "command": "workbench.action.files.saveAll"
     },
     {
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.toggleMaximizedPanel"
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
     },
     {
         "key": "ctrl+f5",
         "command": "workbench.files.action.refreshFilesExplorer"
-    },
-    {
-        "key": "alt+j",
-        "command": "cursorDown",
-        "when": "textInputFocus"
-    },
-
-    {
-        "key": "alt+k",
-        "command": "cursorUp",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "alt+l",
-        "command": "cursorRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "alt+h",
-        "command": "cursorLeft",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "cursorEnd",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+a",
-        "command": "cursorHome",
-        "when": "textInputFocus"
     },
     {
         "key": "ctrl+home",
@@ -94,22 +61,94 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+a",
-        "command": "editor.action.selectAll",
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "alt+down",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.nextPanelView",
+        "when": "panelFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.previousPanelView",
+        "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+b",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key":    "ctrl+e",
+        "command": "cursorEnd",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+a",
-        "command": "-editor.action.selectAll",
+        "key":    "end",
+        "command": "cursorEnd",
         "when": "textInputFocus"
     },
     {
-        "key": "capslock ctrl+`",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
     },
     {
-        "key": "ctrl+`",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "key": "ctrl+shift+=",
+        "command": "-workbench.action.zoomIn"
     },
-
+    {
+        "key": "ctrl+alt+=",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+alt+up",
+        "command": "workbench.action.terminal.resizePaneUp"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "workbench.action.terminal.resizePaneDown"
+    },
+    {
+        "key": "ctrl+shift+alt+f5",
+        "command": "editor.debug.action.runToCursor"
+    }
 ]
