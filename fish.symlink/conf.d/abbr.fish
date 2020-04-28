@@ -35,7 +35,7 @@ abbr -aU -- cdf 'cd ~/.config/fish'
 
 
 #### editing aliases and abbrs
-abbr -aU -- salias 'omf reload'
+abbr -aU -- salias 'source ~/.config/fish/config.fish'
 
 
 ####  terminals ####
