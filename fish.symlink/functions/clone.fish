@@ -1,3 +1,3 @@
 function clone
-	git clone --recursive git@github.com:$argv
+	git clone git@github.com:jwmurray/$argv
 end
