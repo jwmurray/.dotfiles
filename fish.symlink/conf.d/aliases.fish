@@ -3,7 +3,7 @@
 ## git
 alias gadd="git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
 ## exa commands
-alias exa=ls
+# alias exa=ls
 alias ll='exa -la'
 alias lr='exa -lar --sort time'
 alias d='exa -la'
