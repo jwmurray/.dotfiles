@@ -3,3 +3,21 @@
 #*
 Code/User.symlink/workspaceStorage/
 Code/User.symlink/globalStorage/
+'config.symlink/Code/Backups/'
+'config.symlink/Code/blob_storage/'
+'config.symlink/Code/Cache/'
+'config.symlink/Code/CachedData/'
+'config.symlink/Code/CachedExtensions/'
+'config.symlink/Code/Code Cache/'
+'config.symlink/Code/Cookies/'
+'config.symlink/Code/Cookies-journal/'
+'config.symlink/Code/Dictionaries/'
+'config.symlink/Code/GPUCache/'
+'config.symlink/Code/languagepacks.json/'
+'config.symlink/Code/logs/'
+'config.symlink/Code/machineid/'
+'config.symlink/Code/Network Persistent State'
+'config.symlink/Code/rapid_render.json/'
+'config.symlink/Code/storage.json/'
+'config.symlink/Code/TransportSecurity/'
+
