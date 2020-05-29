@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=john@gardenway.org
+Enabled=true
+Parent=d5ef02002da66da5cf1aed5647dd39f2ccce51cc
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=112f22d21cb6c621a2c3b3accc1f87436b587620
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=john@gardenway.org
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
