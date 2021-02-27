@@ -5,21 +5,15 @@
 
 # this is safe to run multiple times and will prompt you about anything unclear
 
-
 # this is a messy edit of alrra's nice work here:
 #   https://raw.githubusercontent.com/alrra/dotfiles/master/os/create_symbolic_links.sh
 #   it should and needs to be improved to be less of a hack.
 
-
-
 # jump down to line ~140 for the start.
-
-
 
 #
 # utils !!!
 #
-
 
 answer_is_yes() {
     [[ "$REPLY" =~ ^[Yy]$ ]] \
@@ -132,15 +126,9 @@ print_success() {
     printf "\e[0;32m  [✔] $1\e[0m\n"
 }
 
-
-
-
-
-
 #
 # actual symlink stuff
 #
-
 
 # finds all *.symlink directories in this folder
 declare -a DIRS_TO_SYMLINK=$(find . -maxdepth 2 -type d -name "*.symlink" )
@@ -192,16 +180,13 @@ main() {
                 else
                     print_error "$targetDir → $sourceDir"
                 fi
-
             else
                 print_success "$targetDir → $sourceDir"
             fi
         else
             execute "ln -fs $sourceDir $targetDir" "$targetDir → $sourceDir"
         fi
-
     done
-
 
     for i in ${FILES_TO_SYMLINK[@]}; do
 
@@ -230,7 +215,6 @@ main() {
         fi
 
     done
-
 }
 
 main
