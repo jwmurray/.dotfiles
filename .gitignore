@@ -20,4 +20,5 @@ Code/User.symlink/globalStorage/
 'config.symlink/Code/rapid_render.json/'
 'config.symlink/Code/storage.json/'
 'config.symlink/Code/TransportSecurity/'
+*.swp
 
