@@ -4,9 +4,9 @@
 alias gadd="git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
 ## exa commands
 # alias exa=ls
-alias ll='exa -la'
+alias ll 'exa -la'
 alias lr='exa -la --sort time'
-alias d='exa -la'
+alias d 'exa -la'
 
 alias p=pwd
 alias du='du -hs'
@@ -31,4 +31,12 @@ alias gcat='cat .git/config'
 alias vi vim
 alias vi3 'vim ~/.config/i3/config'
 alias valias 'vim ~/.config/fish/conf.d/aliases.fish'
-alias vabbr 'vim ~/.config/fish/conf.d/abbr.fish'
+alias valias 'vim ~/.config/fish/conf.d/aliases.fish'
+
+###  ifconfig
+alias mif 'ifconfig en0'
+
+## python
+
+## fish
+alias frel 'source ~/.config/fish/config.fish'

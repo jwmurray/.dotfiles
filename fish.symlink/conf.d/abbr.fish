@@ -1,7 +1,8 @@
 ### fish
 
-abbr -aU -- fishrel 'source ~/.config/fish/config.fish'
+abbr -aU -- frel 'source ~/.config/fish/config.fish'
 abbr -aU -- orel 'omf reload'
+abbr -aU -- pip 'pip3'
 
 
 ### git
