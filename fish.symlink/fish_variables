@@ -33,6 +33,7 @@ SETUVAR _fish_abbr_grbi:git\x20rebase\x20\x2di
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_orel:omf\x20reload
 SETUVAR _fish_abbr_pip:pip3
+SETUVAR _fish_abbr_python:python3
 SETUVAR _fish_abbr_salias:source\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_vabbr:vi\x20\x7e/\x2econfig/fish/conf\x2ed/abbr\x2efish
 SETUVAR _fish_abbr_valias:vi\x20\x7e/\x2econfig/fish/conf\x2ed/aliases\x2efish

@@ -21,3 +21,4 @@ alias python=path_to_p3
 export PATH=path_to_p2:$PATH
 alias python2=path_to_p2
 
+source "$HOME/.cargo/env"
