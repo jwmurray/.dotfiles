@@ -2,8 +2,6 @@
 
 abbr -aU -- frel 'source ~/.config/fish/config.fish'
 abbr -aU -- orel 'omf reload'
-abbr -aU -- pip 'pip3'
-abbr -aU -- python 'python3'
 
 
 ### git
