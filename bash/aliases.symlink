@@ -17,3 +17,5 @@ alias gg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold bl
 alias gs="git status"
 alias gcam="git fetch; git commit -am 'Next commit'"
 
+alias getaliases="pushd ~/.dotfiles; git fetch; git rebase; popd"
+alias pushaliases="pushd ~/.dotfiles; git fetch; git commit -am 'next commit'; popd"
