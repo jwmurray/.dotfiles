@@ -19,3 +19,8 @@ alias gcam="git fetch; git commit -am 'Next commit'"
 
 alias getaliases="pushd ~/.dotfiles; git fetch; git rebase; popd"
 alias pushaliases="pushd ~/.dotfiles; git fetch; git commit -am 'next commit'; popd"
+alias salias='source ~/.aliases'
+
+alias pg="ping google.com"
+alias p8="ping 8.8.8.8"
+alias p7="ping 75.75.75.75"
