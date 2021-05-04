@@ -35,7 +35,7 @@ abbr -aU -- cdf 'cd ~/.config/fish'
 
 
 #### editing aliases and abbrs
-abbr -aU -- salias 'source ~/.config/fish/config.fish'
+abbr -aU -- salias 'source ~/.aliases; source ~/.config/fish/config.fish'
 
 
 ####  terminals ####

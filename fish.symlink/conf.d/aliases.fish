@@ -32,8 +32,7 @@ alias gcat='cat .git/config'
 ## nvim
 alias vi vim
 alias vi3 'vim ~/.config/i3/config'
-alias valias 'vim ~/.config/fish/conf.d/aliases.fish'
-alias valias 'vim ~/.config/fish/conf.d/aliases.fish'
+alias valias 'vim ~/.config/fish/conf.d/aliases.fish; frel'
 
 ###  ifconfig
 alias mif 'ifconfig en0'
@@ -41,4 +40,12 @@ alias mif 'ifconfig en0'
 ## python
 
 ## fish
-alias frel 'source ~/.config/fish/config.fish'
+alias frel 'source ~/.aliases; source ~/.config/fish/config.fish'
+
+## ssh
+alias s8 'ssh 172.16.2.8'
+alias s10 'ssh 172.16.2.10'
+alias sp 'ssh 172.16.0.1'
+
+##
+alias ifc "ifconfig | egrep 'mtu|^\s*status|^\s*inet\s'"
