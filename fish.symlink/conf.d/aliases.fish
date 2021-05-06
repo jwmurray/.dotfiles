@@ -15,11 +15,13 @@ alias h=history
 alias rmf='rm -rf'
 alias gd='git diff'
 alias gcam="git commit -am 'Next commit.'"
-alias gpushmaster='git push origin master -f;
+alias gpushmaster='git push origin master -f;'
 alias pushaliases='pushd  ~/.dotfiles; gcam; gpushmaster; popd; frel'
 alias pa=pushaliases
 alias getaliases='pushd  ~/.dotfiles;git fetch; git rebase; popd;'
 
+alias sd6='export DISPLAY="172.16.0.6:0.0"
+alias sd5='export DISPLAY="172.16.0.5:0.0"
 
 ## Rust
 alias cb='cargo build'
@@ -49,7 +51,7 @@ alias mif 'ifconfig en0'
 ## python
 
 ## fish
-alias frel 'sbashaliases; sfishaliases; sconfigfish'
+alias frel 'sbashaliases sfishaliases sconfigfish'
 
 ## ssh
 alias s8 'ssh 172.16.2.8'
@@ -57,4 +59,4 @@ alias s10 'ssh 172.16.2.10'
 alias sp 'ssh 172.16.0.1'
 
 ##
-alias ifc "ifconfig | egrep 'mtu|^\s*status|^\s*inet\s'"
+##  alias ifc "ifconfig | egrep 'mtu|^\s*status|^\s*inet\s'"
