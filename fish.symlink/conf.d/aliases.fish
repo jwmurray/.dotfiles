@@ -20,8 +20,6 @@ alias pushaliases='pushd  ~/.dotfiles; gcam; gpushmaster; popd; frel'
 alias pa=pushaliases
 alias getaliases='pushd  ~/.dotfiles;git fetch; git rebase; popd;'
 
-alias sd6='export DISPLAY="172.16.0.6:0.0"
-alias sd5='export DISPLAY="172.16.0.5:0.0"
 
 ## Rust
 alias cb='cargo build'

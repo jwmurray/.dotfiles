@@ -22,7 +22,7 @@ SETUVAR _fish_abbr_fishrel:source\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_frel:source\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_gadduntracked:\x21git\x20status\x20\x2d\x2dporcelain\x20\x7c\x20awk\x20\x27/\x5c\x3f\x5c\x3f/\x7b\x20print\x20\x20\x7d\x27\x20\x7c\x20xargs\x20git\x20add
 SETUVAR _fish_abbr_gc:git\x20checkout
-SETUVAR _fish_abbr_gcam:git\x20commit\x20\x2dam\x20\x27
+SETUVAR _fish_abbr_gcam:git\x20commit\x20\x2dam\x20\x27Next\x20commit\x27
 SETUVAR _fish_abbr_gcat:cat\x20\x2egit/config
 SETUVAR _fish_abbr_gclone:git\x20clone\x20git\x40github\x2ecom\x3a
 SETUVAR _fish_abbr_gf:git\x20fetch
@@ -33,6 +33,8 @@ SETUVAR _fish_abbr_grbi:git\x20rebase\x20\x2di
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_orel:omf\x20reload
 SETUVAR _fish_abbr_salias:source\x20\x7e/\x2ealiases\x3b\x20source\x20\x7e/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_sd5:export\x20DISPLAY\x3d\x27172\x2e16\x2e0\x2e5\x3a0\x2e0\x27
+SETUVAR _fish_abbr_sd6:export\x20DISPLAY\x3d\x27172\x2e16\x2e0\x2e6\x3a0\x2e0\x27
 SETUVAR _fish_abbr_vabbr:vi\x20\x7e/\x2econfig/fish/conf\x2ed/abbr\x2efish
 SETUVAR _fish_abbr_valias:vi\x20\x7e/\x2econfig/fish/conf\x2ed/aliases\x2efish
 SETUVAR _fish_abbr_vi:vim
