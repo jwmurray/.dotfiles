@@ -19,6 +19,6 @@ set -gx PATH /opt/local/bin $PATH
 
 # Setting PATH for Python 3.10
 # The original version is saved in /Users/jmurray/.config/fish/config.fish.pysave
-set -x PATH "/Library/Frameworks/Python.framework/Versions/3.10/bin" "$PATH"
-
-pyenv init - | source
+# set -x PATH "/Library/Frameworks/Python.framework/Versions/3.10/bin" "$PATH"
+#
+# pyenv init - | source

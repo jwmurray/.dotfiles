@@ -14,6 +14,11 @@ alias sbash='source  ~/.bashrc'
 alias h=history
 alias rmf='rm -rf'
 alias gd='git diff'
+alias gcam="git commit -am 'Next commit.'"
+alias gpushmaster='git push origin master -f;
+alias pushaliases='pushd  ~/.dotfiles; gcam; gpushmaster; popd; frel'
+alias pa=pushaliases
+alias getaliases='pushd  ~/.dotfiles;git fetch; git rebase; popd;'
 
 
 ## Rust
@@ -33,6 +38,10 @@ alias gcat='cat .git/config'
 alias vi vim
 alias vi3 'vim ~/.config/i3/config'
 alias valias 'vim ~/.config/fish/conf.d/aliases.fish; frel'
+alias sfishaliases='source ~/.config/fish/conf.d/aliases.fish'
+alias sconfigfish='source ~/.config/fish/config.fish'
+alias sbashalias='source ~/.aliases'
+
 
 ###  ifconfig
 alias mif 'ifconfig en0'
@@ -40,7 +49,7 @@ alias mif 'ifconfig en0'
 ## python
 
 ## fish
-alias frel 'source ~/.aliases; source ~/.config/fish/config.fish'
+alias frel 'sbashaliases; sfishaliases; sconfigfish'
 
 ## ssh
 alias s8 'ssh 172.16.2.8'
