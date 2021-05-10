@@ -13,6 +13,8 @@ abbr -aU gg2 "git log --graph --abbrev-commit --decorate --format=format:'%C(bol
 abbr -aU -- gf "git fetch"
 abbr -aU -- gclone "git clone git@github.com:"
 abbr -aU -- gcam "git commit -am 'Next commit'"
+abbr -aU -- getaliases "pushd ~/.dotfiles; git fetch; git rebase; popd"
+abbr -aU -- pushaliases "pushd ~/.dotfiles; gcam; popd"
 abbr -aU -- gcat "cat .git/config"
 abbr -aU -- grb "git rebase"
 abbr -aU -- grbi "git rebase -i"
@@ -50,3 +52,20 @@ abbr -aU -- cr 'clear;cargo run'
 abbr -aU -- ct 'clear;cargo test'
 
 ####  vi/vim/neovim ####
+
+abbr -aU --  ll 'ls -la'
+abbr -aU --  lr 'ls -lart'
+abbr -aU --  d 'ls -la'
+abbr -aU --  p pwd
+abbr -aU --  du 'du -hs'
+abbr -aU --  sbash 'source  ~/.bashrc'
+abbr -aU --  h history
+abbr -aU --  rmf 'rm -rf'
+abbr -aU --  gd 'git diff'
+abbr -aU --  gcam "git commit -am 'Next commit.'"
+abbr -aU --  gpushmaster 'git push origin master -f;'
+abbr -aU --  pushaliases 'pushd  ~/.dotfiles; gcam; gpushmaster; popd; frel'
+abbr -aU --  pa pushaliases
+abbr -aU --  getaliases 'pushd  ~/.dotfiles;git fetch; git rebase; popd;'
+abbr -aU -- frel 'source ~/.config/fish/config.fish'
+
