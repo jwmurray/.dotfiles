@@ -68,3 +68,6 @@ abbr -aU --  pa pushaliases
 abbr -aU --  getaliases 'pushd  ~/.dotfiles;git fetch; git rebase; popd;'
 abbr -aU -- frel 'source ~/.config/fish/config.fish; source ~/.config/fish/conf.d/abbr.fish'
 
+##### vaso
+
+abbr -aU -- pso 'ps aux | grep -i orthanc'
