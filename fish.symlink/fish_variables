@@ -16,6 +16,7 @@ SETUVAR _fish_abbr_cdcfg:cd\x20\x7e/\x2econfig
 SETUVAR _fish_abbr_cdd:cd\x20\x7e/\x2edotfiles
 SETUVAR _fish_abbr_cdf:cd\x20\x7e/\x2econfig/fish
 SETUVAR _fish_abbr_cdr:cd\x20\x7e/code/rust
+SETUVAR _fish_abbr_cdv:cd\x20\x7e/code/vasolabs
 SETUVAR _fish_abbr_cr:clear\x3bcargo\x20run
 SETUVAR _fish_abbr_ct:clear\x3bcargo\x20test
 SETUVAR _fish_abbr_d:ls\x20\x2dla

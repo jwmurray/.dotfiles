@@ -33,7 +33,10 @@ abbr -aU --  ...... 'cd ../../../../..'
 abbr -aU --  ........ 'cd ../../../../../..'
 abbr -aU --  ......... 'cd ../../../../../../..'
 abbr -aU -- cdcfg 'cd ~/.config'
+
 abbr -aU -- cdd 'cd ~/.dotfiles'
+abbr -aU -- cdf 'cd ~/.dotfiles/fish/conf.d'
+abbr -aU -- cdv 'cd ~/code/vasolabs'
 abbr -aU -- cdf 'cd ~/.config/fish'
 
 
