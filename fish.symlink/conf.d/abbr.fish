@@ -75,3 +75,4 @@ abbr -aU -- frel 'source ~/.config/fish/config.fish; source ~/.config/fish/conf.
 ##### vaso
 
 abbr -aU -- pso 'ps aux | grep -i orthanc'
+abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
