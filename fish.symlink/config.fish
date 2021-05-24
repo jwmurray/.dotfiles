@@ -7,7 +7,7 @@ set -gx PATH /usr/local/clion/bin $PATH
 set -gx PATH /usr/local/node/bin $PATH
 set -gx PATH /opt/homebrew/bin $PATH
 set -gx PATH /opt/local/bin $PATH
-
+set -gx PATH /Users/jmurray/code/vasolabs/controller $PATH
 
 
 #setxkbmap -option ctrl:nocaps
