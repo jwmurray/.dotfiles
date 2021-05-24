@@ -38,6 +38,7 @@ SETUVAR _fish_abbr_grb:git\x20rebase
 SETUVAR _fish_abbr_grbi:git\x20rebase\x20\x2di
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_h:history
+SETUVAR _fish_abbr_ifc:ifconfig\x20\x7c\x20egrep\x20\x27mtu\x7c\x5e\x5cs\x2astatus\x7c\x5e\x5cs\x2ainet\x5cs\x27
 SETUVAR _fish_abbr_ll:ls\x20\x2dla
 SETUVAR _fish_abbr_lr:ls\x20\x2dlart
 SETUVAR _fish_abbr_orel:omf\x20reload

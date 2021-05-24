@@ -18,6 +18,7 @@ abbr -aU -- pushaliases "pushd ~/.dotfiles; git commit -am 'Next commit'; git pu
 abbr -aU -- gcat "cat .git/config"
 abbr -aU -- grb "git rebase"
 abbr -aU -- grbi "git rebase -i"
+abbr -aU -- ifc "ifconfig | egrep 'mtu|^\s*status|^\s*inet\s'"
 
 abbr -aU -- sd6 "export DISPLAY='172.16.0.6:0.0'"
 abbr -aU -- sd5 "export DISPLAY='172.16.0.5:0.0'"
