@@ -57,9 +57,9 @@ abbr -aU -- ct 'clear;cargo test'
 
 ####  vi/vim/neovim ####
 
-abbr -aU --  ll 'ls -la'
-abbr -aU --  lr 'ls -lart'
-abbr -aU --  d 'ls -la'
+abbr -aU --  ll 'ls -lah'
+abbr -aU --  lr 'ls -larth'
+abbr -aU --  d 'ls -lah'
 abbr -aU --  p pwd
 abbr -aU --  du 'du -hs'
 abbr -aU --  sbash 'source  ~/.bashrc'
