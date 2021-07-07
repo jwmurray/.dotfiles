@@ -23,7 +23,8 @@ abbr -aU -- ifc "ifconfig | egrep 'mtu|^\s*status|^\s*inet\s'"
 abbr -aU -- sd6 "export DISPLAY='172.16.0.6:0.0'"
 abbr -aU -- sd5 "export DISPLAY='172.16.0.5:0.0'"
 
-## changing directories
+## changing dieectories
+#
 
 ## cd commands
 abbr -aU -- . 'cd ..'
@@ -83,4 +84,8 @@ abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
 abbr -aU -- tailc 'tail -f /opt/vasolabs/controller/0.controller.log'
 abbr -aU -- tailo 'tail -f  /var/log/orthanc/Orthanc.log'
 abbr -aU -- vabbr 'vim ~/.dotfiles/fish.symlink/conf.d/abbr.fish'
+
+abbr -aU -- reo 'sudo systemctl restart orthanc'
+abbr -aU -- rec 'sudo systemctl restart controller'
+abbr -aU -- reoc 'sudo systemctl restart orthanc; sudo systemctl restart controller'
 
