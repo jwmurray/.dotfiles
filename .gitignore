@@ -23,4 +23,4 @@ Code/User.symlink/globalStorage/
 *.swp
 *.save
 .netrwhist
-
+fish_variables*
