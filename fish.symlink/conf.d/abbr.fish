@@ -79,3 +79,7 @@ abbr -aU -- pso 'ps aux | grep -i orthanc'
 abbr -aU -- psc 'ps aux | grep -i controller'
 abbr -aU -- psa 'ps aux | grep -i orthanc; ps aux | grep -i controller'
 abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
+
+abbr -aU -- tailc ' /var/log/orthanc/Orthanc.log'
+abbr -aU -- tailo 'tail -f  /var/log/orthanc/Orthanc.log'
+
