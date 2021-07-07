@@ -38,6 +38,7 @@ abbr -aU -- cdcfg 'cd ~/.config'
 abbr -aU -- cdd 'cd ~/.dotfiles'
 abbr -aU -- cdf 'cd ~/.dotfiles/fish/conf.d'
 abbr -aU -- cdv 'cd ~/code/vaso/vasolabs'
+abbr -aU -- cdvc 'cd ~/code/vaso/vasolabs/controller'
 abbr -aU -- cdf 'cd ~/.config/fish'
 
 
@@ -75,4 +76,6 @@ abbr -aU -- frel 'source ~/.config/fish/config.fish; source ~/.config/fish/conf.
 ##### vaso
 
 abbr -aU -- pso 'ps aux | grep -i orthanc'
+abbr -aU -- psc 'ps aux | grep -i controller'
+abbr -aU -- psa 'ps aux | grep -i orthanc; ps aux | grep -i controller'
 abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
