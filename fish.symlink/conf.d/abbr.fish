@@ -63,7 +63,7 @@ abbr -aU --  ll 'ls -lah'
 abbr -aU --  lr 'ls -larth'
 abbr -aU --  d 'ls -lah'
 abbr -aU --  p pwd
-abbr -aU --  du 'du -hs'
+abbr -aU --  du 'du -h '
 abbr -aU --  sbash 'source  ~/.bashrc'
 abbr -aU --  h history
 abbr -aU --  rmf 'rm -rf'
@@ -81,13 +81,13 @@ abbr -aU -- psc 'ps aux | grep -i controller'
 abbr -aU -- psa 'ps aux | grep -i orthanc; ps aux | grep -i controller'
 abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
 
-abbr -aU -- tailc 'tail -f /opt/vasolabs/controller/0.controller.log'
+abbr -aU -- tailc 'tail -f /var/log/vaso-controller/0.controller.log'
 abbr -aU -- tailo 'tail -f  /var/log/orthanc/Orthanc.log'
 abbr -aU -- vabbr 'vim ~/.dotfiles/fish.symlink/conf.d/abbr.fish'
 
 abbr -aU -- reo 'sudo systemctl restart orthanc'
 abbr -aU -- rec 'sudo systemctl daemon-reload; sudo systemctl restart controller'
-abbr -aU -- reoc 'sudo systemctl daemon-reload; ssudo systemctl restart orthanc; sudo systemctl restart controller'
+abbr -aU -- reoc 'sudo systemctl daemon-reload; sudo systemctl restart orthanc; sudo systemctl restart controller'
 
 abbr -aU -- redaemon 'sudo systemctl daemon-reload'
 
