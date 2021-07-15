@@ -74,7 +74,7 @@ abbr -aU --  gcam "git commit -am 'Next commit.'"
 abbr -aU --  gpushmaster 'git push origin master -f;'
 abbr -aU --  pa pushaliases
 abbr -aU --  getaliases 'pushd  ~/.dotfiles;git fetch; git rebase; popd;'
-abbr -aU -- frel 'source ~/.config/fish/config.fish; source ~/.config/fish/conf.d/abbr.fish; source ~/.config/fish/conf.d/*.fish'
+
 
 ##### vaso
 
