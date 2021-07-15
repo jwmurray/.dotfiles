@@ -87,11 +87,5 @@ abbr -aU -- tailc 'tail -f /var/log/vaso-controller/0.controller.log'
 abbr -aU -- tailo 'tail -f  /var/log/orthanc/Orthanc.log'
 abbr -aU -- vabbr 'vim ~/.dotfiles/fish.symlink/conf.d/abbr.fish'
 
-abbr -aU -- reo 'sudo systemctl restart orthanc'
-abbr -aU -- rec 'sudo systemctl daemon-reload; sudo systemctl restart controller'
-abbr -aU -- reoc 'sudo systemctl daemon-reload; sudo systemctl restart orthanc; sudo systemctl restart controller'
-
-abbr -aU -- redaemon 'sudo systemctl daemon-reload'
-
 abbr -aU -- vbl 'vboxmanage list vms'
 
