@@ -83,10 +83,8 @@ abbr -aU -- psc 'ps aux | grep -i controller'
 abbr -aU -- psa 'ps aux | grep -i orthanc; ps aux | grep -i controller'
 abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
 
-abbr -aU -- tailc 'tail -f /var/log/vaso-controller/0.controller.log'
-abbr -aU -- tailo 'tail -f  /var/log/orthanc/Orthanc.log'
 abbr -aU -- vabbr 'vim ~/.dotfiles/fish.symlink/conf.d/abbr.fish'
-abbr -aU -- efish 'emacs ~/.dotfiles/fish.symlink/conf.d'
 
 abbr -aU -- vbl 'vboxmanage list vms'
+abbr -aU -- sqlb 'sqlitebrowser '
 

@@ -14,4 +14,13 @@ function reoc
 	 reo
 	 sleep 1
 	 rec
-end	 
+end
+
+
+function tailc
+	 tail -f -n 100 /var/log/vaso-controller/0.controller.log
+end
+
+function tailo
+	 tail -f -n 100  /var/log/orthanc/Orthanc.log
+end

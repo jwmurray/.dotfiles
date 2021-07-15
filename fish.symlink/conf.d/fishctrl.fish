@@ -6,3 +6,9 @@ function frel
    source ~/.config/fish/conf.d/*.fish
    
 end
+
+function efish
+	 emacs ~/.dotfiles/fish.symlink/conf.d
+	 frel
+end	 
+	 
