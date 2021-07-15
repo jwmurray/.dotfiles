@@ -1,6 +1,8 @@
 ### fish
 
-abbr -aU -- frel 'source ~/.config/fish/config.fish'
+
+
+
 abbr -aU -- orel 'omf reload'
 
 
@@ -72,7 +74,7 @@ abbr -aU --  gcam "git commit -am 'Next commit.'"
 abbr -aU --  gpushmaster 'git push origin master -f;'
 abbr -aU --  pa pushaliases
 abbr -aU --  getaliases 'pushd  ~/.dotfiles;git fetch; git rebase; popd;'
-abbr -aU -- frel 'source ~/.config/fish/config.fish; source ~/.config/fish/conf.d/abbr.fish'
+abbr -aU -- frel 'source ~/.config/fish/config.fish; source ~/.config/fish/conf.d/abbr.fish; source ~/.config/fish/conf.d/*.fish'
 
 ##### vaso
 
@@ -91,4 +93,5 @@ abbr -aU -- reoc 'sudo systemctl daemon-reload; sudo systemctl restart orthanc; 
 
 abbr -aU -- redaemon 'sudo systemctl daemon-reload'
 
+abbr -aU -- vbl 'vboxmanage list vms'
 

@@ -1,1 +1,0 @@
-/home/jmurray/.local/share/omf/themes/beloglazov/fish_prompt.fish
