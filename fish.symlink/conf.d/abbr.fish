@@ -16,7 +16,7 @@ abbr -aU -- gf "git fetch"
 abbr -aU -- gclone "git clone git@github.com:"
 abbr -aU -- gcam "git commit -am 'Next commit'"
 abbr -aU -- getaliases "pushd ~/.dotfiles; git fetch; git rebase; popd"
-abbr -aU -- pushaliases "pushd ~/.dotfiles; git commit -am 'Next commit'; git push origin master -f; popd; source ~/.config/fish/config.fish"
+abbr -aU -- pushaliases "pushd ~/.dotfiles; git add .; git commit -am 'Next commit'; git push origin master -f; popd; source ~/.config/fish/config.fish"
 abbr -aU -- gcat "cat .git/config"
 abbr -aU -- grb "git rebase"
 abbr -aU -- grbi "git rebase -i"
@@ -86,6 +86,7 @@ abbr -aU -- vorth 'vim /opt/Orthanc/orthanc.json'
 abbr -aU -- tailc 'tail -f /var/log/vaso-controller/0.controller.log'
 abbr -aU -- tailo 'tail -f  /var/log/orthanc/Orthanc.log'
 abbr -aU -- vabbr 'vim ~/.dotfiles/fish.symlink/conf.d/abbr.fish'
+abbr -aU -- efish 'emacs ~/.dotfiles/fish.symlink/conf.d'
 
 abbr -aU -- vbl 'vboxmanage list vms'
 
