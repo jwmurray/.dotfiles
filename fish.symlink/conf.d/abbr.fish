@@ -1,8 +1,5 @@
 ### fish
 
-
-
-
 abbr -aU -- orel 'omf reload'
 
 
@@ -86,4 +83,6 @@ abbr -aU -- vabbr 'vim ~/.dotfiles/fish.symlink/conf.d/abbr.fish'
 
 abbr -aU -- vbl 'vboxmanage list vms'
 abbr -aU -- sqlb 'sqlitebrowser '
+abbr -aU -- cdoc 'cd /opt/vasolabs/controller'
+abbr -aU -- cdov 'cd /opt/vasolabs'
 
