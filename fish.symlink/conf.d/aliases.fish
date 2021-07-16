@@ -9,7 +9,6 @@ alias lr='ls -lart'
 alias d 'ls -la'
 
 alias p=pwd
-alias du='du -hs'
 alias sbash='source  ~/.bashrc'
 alias h=history
 alias rmf='rm -rf'

@@ -65,7 +65,6 @@ abbr -aU --  ll 'ls -lah'
 abbr -aU --  lr 'ls -larth'
 abbr -aU --  d 'ls -lah'
 abbr -aU --  p pwd
-abbr -aU --  du 'du -h '
 abbr -aU --  sbash 'source  ~/.bashrc'
 abbr -aU --  h history
 abbr -aU --  rmf 'rm -rf'

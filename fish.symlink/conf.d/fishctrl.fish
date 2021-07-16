@@ -12,3 +12,6 @@ function efish
 	 frel
 end	 
 	 
+function du1
+	 du -h -d 1
+end
