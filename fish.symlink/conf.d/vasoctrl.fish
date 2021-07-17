@@ -1,18 +1,36 @@
 
 abbr -aU -- redaemon 'sudo systemctl daemon-reload'
 
+function starto
+	 sudo systemctl start orthanc
+end
+
+function startc
+	 sudo systemctl start controller
+end
+
+function stopo
+	 sudo systemctl stop orthanc
+end
+
+function stopc
+	 sudo systemctl stop controller
+end
+
 function reo
-	 sudo systemctl restart orthanc
+	 stopo
+	 starto
 end
 
 function rec
 	 sudo systemctl daemon-reload
-	 sudo systemctl restart controller
+	 stopc
+	 startc
 end
 
 function reoc
 	 reo
-	 sleep 1
+	 sleep 4
 	 rec
 end
 
