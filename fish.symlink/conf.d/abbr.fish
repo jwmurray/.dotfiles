@@ -89,13 +89,8 @@ abbr -aU -- sqlb 'sqlitebrowser '
 abbr -aU -- cdoc 'cd /opt/vasolabs/controller'
 abbr -aU -- cdov 'cd /opt/vasolabs'
 
-<<<<<<< Updated upstream
-=======
 ### pings and ssh
 abbr -aU -- p10 'ping 172.16.2.10'
 abbr -aU -- p8 'ping 172.16.2.8'
 abbr -aU -- s8 'ssh -X 172.16.2.8'
 abbr -aU -- s10 'ssh -X 172.16.2.10'
-
-
->>>>>>> Stashed changes
