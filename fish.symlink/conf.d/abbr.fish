@@ -39,6 +39,9 @@ abbr -aU -- cdd 'cd ~/.dotfiles'
 abbr -aU -- cdf 'cd ~/.dotfiles/fish/conf.d'
 abbr -aU -- cdv 'cd ~/code/vaso/vasolabs'
 abbr -aU -- cdvc 'cd ~/code/vaso/vasolabs/controller'
+abbr -aU -- cdvm 'cd ~/code/vaso/miniature-waffle'
+abbr -aU -- cdoc 'cd /opt/vasolabs/controller'
+abbr -aU -- cdov 'cd /opt/vasolabs'
 abbr -aU -- cdf 'cd ~/.config/fish'
 
 

@@ -20,15 +20,3 @@ function cdf
 	ls -la
 end
 
-function cdoc
-	 pushd
-	cd /opt/vasolabs/controller
-	ls -la
-end
-
-function cdov
-	 pushd
-	 cd /opt/vasolabs
-	ls -la
-end
-
