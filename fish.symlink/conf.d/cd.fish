@@ -1,22 +1,34 @@
 function cdc
 	cd ~/code
-ls -la
+	ls -la
 end
 
 function cdp
 	cd ~/code/python
-ls -la
+	ls -la
 end
 
 function cdr
 	 pushd
 	cd ~/code/rust
-ls -la
+	ls -la
 end
 
 function cdf
 	 pushd
 	cd ~/.config/fish/conf.d
-ls -la
+	ls -la
+end
+
+function cdoc
+	 pushd
+	cd /opt/vasolabs/controller
+	ls -la
+end
+
+function cdov
+	 pushd
+	 cd /opt/vasolabs
+	ls -la
 end
 
