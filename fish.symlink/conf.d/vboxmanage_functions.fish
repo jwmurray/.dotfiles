@@ -7,14 +7,14 @@ function vbstart
 end
 
 
-function vbl
+function vblv
 	vboxmanage list vms $argv[1] 
 end
 
-function vbr
+function vblr
 	vboxmanage list runningvms 
 end
 
-function frel
-    source ~/.config/fish/config.fish
+function vbldisks
+	vboxmanage list hdds
 end

@@ -15,3 +15,12 @@
 
 
 (global-auto-revert-mode t)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq tab-width 4)
+(defvaralias 'c-basic-offset 'tab-width)
+(defvaralias 'cperl-ident-level 'tab-width)
+(defvaralias 'js-indent-level 'tab-width)
+
+
+(defalias 'yes-or-no-p 'y-or-n-p)

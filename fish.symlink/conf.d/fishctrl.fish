@@ -1,4 +1,3 @@
-
 function frel
    rm ~/.config/fish/fish_variables
    source ~/.config/fish/config.fish
